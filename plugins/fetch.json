@@ -1,0 +1,21 @@
+{
+    "plugin.google.maps": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wf9a5m75/phonegap-googlemaps-plugin",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY_FOR_ANDROID": "AIzaSyDGsGzZcTltqGzkCGmOz1RA9E6-rZZk3tY"
+        }
+    },
+    "plugin.http.request": {
+        "source": {
+            "type": "registry",
+            "id": "plugin.http.request"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

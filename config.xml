@@ -1,0 +1,61 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.Cordova.Ionic.GoogleMapPlugin" version="2.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name>Google Map Plugin for Ionic Framework</name>
+  <description>
+    Sample working app using the Google Maps plugin with Ionic Framework.
+  </description>
+  <author email="" href=""></author>
+
+  <feature name="http://api.phonegap.com/1.0/device" />
+  <feature name="http://api.phonegap.com/1.0/geolocation"/>
+  <feature name="GoogleMaps">
+	<param name="android-package" value="plugin.google.maps.GoogleMaps" />
+  </feature>
+
+  <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+  <gap:plugin name="com.adobe.plugins.gaplugin" />
+  <gap:plugin name="dk.interface.cordova.plugin.googlenavigate" version="0.1.2" />
+  <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+  <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
+  <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
+  <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+  <gap:plugin name="plugin.google.maps.menusito" version="1.2.5" />
+  
+  <preference name="orientation" value="portrait" />
+  <preference name="target-device" value="universal" />
+  <preference name="fullscreen" value="false" />
+  <preference name="webviewbounce" value="true" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="ios-statusbarstyle" value="black-opaque" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="true" />
+  <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="auto-hide-splash-screen" value="true" />
+  <preference name="disable-cursor" value="false" />
+  <preference name="android-minSdkVersion" value="16" />
+  <preference name="android-installLocation" value="auto" />
+
+  <icon src="cordova/cordova_128.png"/>
+  <icon src="cordova/cordova_android_36.png" gap:platform="android" gap:density="ldpi"/>
+  <icon src="cordova/cordova_android_48.png" gap:platform="android" gap:density="mdpi"/>
+  <icon src="cordova/cordova_android_72.png" gap:platform="android" gap:density="hdpi"/>
+  <icon src="cordova/cordova_android_96.png" gap:platform="android" gap:density="xhdpi"/>
+  <icon src="cordova/cordova_ios_57.png" gap:platform="ios" width="57" height="57"/>
+  <icon src="cordova/cordova_ios_72.png" gap:platform="ios" width="72" height="72"/>
+  <icon src="cordova/cordova_ios_114.png" gap:platform="ios" width="114" height="114"/>
+  <icon src="cordova/cordova_ios_144.png" gap:platform="ios" width="144" height="144"/>
+
+  <gap:splash src="cordova/res/screen/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
+  <gap:splash src="cordova/res/screen/android_mdpi_portrait.png" gap:platform="android" gap:density="mdpi"/>
+  <gap:splash src="cordova/res/screen/android_hdpi_portrait.png" gap:platform="android" gap:density="hdpi"/>
+  <gap:splash src="cordova/res/screen/android_xhdpi_portrait.png" gap:platform="android" gap:density="xhdpi"/>
+  <gap:splash src="cordova/res/screen/blackberry_transparent_300.png" gap:platform="blackberry"/>
+  <gap:splash src="cordova/res/screen/iphone_portrait.png" gap:platform="ios" width="320" height="480"/>
+  <gap:splash src="cordova/res/screen/iphone_retina_portrait.png" gap:platform="ios" width="640" height="960"/>
+  <gap:splash src="cordova/res/screen/ipad_portrait.png" gap:platform="ios" width="768" height="1024"/>
+  <gap:splash src="cordova/res/screen/ipad_landscape.png" gap:platform="ios" width="1024" height="768"/>
+  <gap:splash src="cordova/res/screen/windows_phone_portrait.jpg" gap:platform="winphone"/>
+
+  <access origin="*" browserOnly="true" subdomains="true"/>
+</widget>
